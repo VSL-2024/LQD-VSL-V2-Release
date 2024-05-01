@@ -27,8 +27,8 @@ jobs:
       - name: Push to Github Release
         uses: ncipollo/release-action@v1
         with:
-          tag: v7.1.1
-          name: v7.1.1
+          tag: v7.1.2
+          name: v7.1.2
           artifacts: |
             VSL-BLE-LQD2024.apk
             update-changelog.json
